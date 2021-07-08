@@ -14,7 +14,7 @@ Sub Post_Run()
 ' Run after main macro finishes running to reverse whe Pre_Run did
 '
     Application.DisplayAlerts = True
-    Application.Calculation = True
+    Application.Calculation = x1CalculationAutomatic
     Application.ScreenUpdating = True
     
 End Sub
